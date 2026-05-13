@@ -6,6 +6,7 @@
 **作者：r136a1**
 
 **来源：https://r136a1.dev/2026/05/07/where-have-all-the-complex-malware-and-their-analyses-gone/**
+
 你可能也曾纳闷，为什么尤其是过去几年里，阅读到真正有趣的恶意软件及其深度分析变得越来越罕见。如果你在网络安全领域待了超过十年，你一定记得那种“发现新大陆”的感觉。那时候，你起床接杯咖啡，翻开卡巴斯基 GReAT 团队、FireEye（现 Mandiant/谷歌）或 ESET 的最新博客，总能看到一份长达 60 页的 PDF，读起来就像一部高智商的间谍惊悚片。一二十年前，企业安全博客、独立研究站点以及像 KernelMode.info 这样的专业论坛是恶意软件“大片”的宝库。吸引我们的不仅是对高度复杂、定制化 Rootkit 的技术拆解，更是狩猎本身带来的快感。威胁猎手和研究人员会发布扣人心弦的记录，讲述他们如何追踪模糊的基础设施，在服务器和协议间跳转，最终揭开那些庞大的、模块化的、带有复杂定制插件的工具包。在那个时代，我们见证了研究人员对有史以来最精密的代码进行解剖。我们看到了来自 Equation Group、Stuxnet（震网）、Flame（火焰）、Careto（面具）、Uroburos/Snake、DarkHotel、The Dukes、Duqu(2)、The Lamberts/Longhorn、Project Sauron 和 FinFisher 的工具构造。这些不仅仅是简单的病毒，它们是利用定制虚拟文件系统和隐藏分区的工程奇迹。即便在通用恶意软件领域，也是一片迷人的技术游乐场，研究人员经常狩猎并拆解像 TDL、Zero Access、Zeus、Dridex、Ursnif、Ploutus 和 Carberp 这样的重量级对手。但近年来，这种动态发生了剧变，留下了一个让人感到诡异且空洞的图景。本文试图探讨个中原因。
 
 ## 勒索软件与窃信软件的“噪音机器”
